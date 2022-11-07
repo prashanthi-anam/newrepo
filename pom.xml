@@ -32,6 +32,12 @@
   </dependencies>
 
   <build>
+  <distributionManagement>
+      <repository>
+      <id>release</id>
+      <url>http://54.168.188.168:8081/repository/kspro/</url>
+    </repository>
+  </distributionManagement>
     <finalName>${project.name}</finalName>
     <plugins>
       <plugin>
@@ -52,10 +58,5 @@
       </plugin>
     </plugins>
   </build>
-  <distributionManagement>
-      <repository>
-      <id>release</id>
-      <url>http://54.168.188.168:8081/repository/kspro/</url>
-    </repository>
-  </distributionManagement>
+  
 </project>
