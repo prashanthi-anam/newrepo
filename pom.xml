@@ -54,8 +54,8 @@
   </build>
   <distributionManagement>
       <snapshotRepository>
-      <id>deployment</id>
-      <url>http://35.77.228.72:8081/repository/maven-snapshots/</url>
+      <id>release</id>
+      <url>http://54.168.188.168:8081/repository/kspro/</url>
     </snapshotRepository>
   </distributionManagement>
 </project>
