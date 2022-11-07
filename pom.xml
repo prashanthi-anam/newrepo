@@ -53,10 +53,10 @@
     </plugins>
   </build>
  <distributionManagement>
-     <repository>
+     <snapshotrepository>
           <id>release</id>
-          <url>http://54.178.181.188:8081/repository/maven-releases/</url>
-       </repository>
+          <url>http://54.178.181.188:8081/repository/maven-snapshots/</url>
+       </snapshotrepository>
 </distributionManagement>
 
 
