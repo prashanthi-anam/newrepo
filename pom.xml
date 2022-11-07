@@ -53,9 +53,9 @@
     </plugins>
   </build>
   <distributionManagement>
-      <snapshotRepository>
+      <repository>
       <id>release</id>
       <url>http://54.168.188.168:8081/repository/kspro/</url>
-    </snapshotRepository>
+    </repository>
   </distributionManagement>
 </project>
